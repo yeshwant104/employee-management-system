@@ -1,62 +1,56 @@
 # Employee Management System
 
-A web-based Employee Management System developed using Java and Spring Boot that allows users to manage employee records through a simple and responsive interface.
+A full-stack Employee Management System built using Spring Boot, Thymeleaf, Spring Data JPA, Hibernate, and H2 Database.
 
-## 🚀 Features
+## Live Demo
 
-- Add new employees
-- Update employee information
-- Delete employee records
-- View all employees in a structured table
-- Department management
-- Role management
-- Responsive Bootstrap UI
-- Database persistence using H2 Database
-- Spring Data JPA integration
+Application URL:
 
-## 🛠️ Tech Stack
+https://employee-management-system-3ggd.onrender.com
 
-- Java 17
-- Spring Boot
-- Spring Data JPA
-- Hibernate
-- Thymeleaf
-- H2 Database
-- Maven
-- Bootstrap
-- HTML/CSS
+## Features
 
-## 📸 Application Preview
+* Add Employee
+* Update Employee
+* Delete Employee
+* View Employee List
+* Employee Role Management
+* Employee Department Management
+* Responsive UI with Bootstrap
+* Dockerized Deployment
+* Cloud Deployment using Render
 
-### Employee Dashboard
-- View all employees
-- Update employee details
-- Delete employee records
+## Tech Stack
 
-### Employee Form
-- Add Employee
-- Enter Department
-- Enter Role
-- Store employee information in database
+### Backend
 
-## 🏗️ Project Structure
+* Java 17
+* Spring Boot
+* Spring Data JPA
+* Hibernate
 
-```text
-src
-├── main
-│   ├── java
-│   │   ├── controller
-│   │   ├── model
-│   │   ├── repository
-│   │   ├── service
-│   │   └── SpringBootEmployeeManagementSystemApplication
-│   └── resources
-│       ├── templates
-│       ├── static
-│       └── application.properties
-```
+### Frontend
 
-## ⚙️ Installation
+* Thymeleaf
+* HTML
+* CSS
+* Bootstrap
+
+### Database
+
+* H2 Database
+
+### Build & Deployment
+
+* Maven
+* Docker
+* Render
+
+## Screenshots
+
+Add screenshots here by uploading images to GitHub and linking them.
+
+## Getting Started
 
 Clone the repository:
 
@@ -64,7 +58,7 @@ Clone the repository:
 git clone https://github.com/yeshwant104/employee-management-system.git
 ```
 
-Navigate to project directory:
+Navigate to the project:
 
 ```bash
 cd employee-management-system
@@ -73,7 +67,7 @@ cd employee-management-system
 Run the application:
 
 ```bash
-mvn spring-boot:run
+./mvnw spring-boot:run
 ```
 
 Open:
@@ -82,38 +76,7 @@ Open:
 http://localhost:8081
 ```
 
-## 🎯 Learning Outcomes
+## Author
 
-Through this project I gained hands-on experience with:
-
-- Spring Boot MVC Architecture
-- CRUD Operations
-- Spring Data JPA
-- Hibernate ORM
-- Thymeleaf Templating Engine
-- Maven Project Management
-- Database Integration
-- Git & GitHub Workflow
-
-## 🔮 Future Improvements
-
-- Employee Search
-- Pagination
-- Sorting
-- Authentication & Authorization
-- REST API Integration
-- MySQL Database Support
-- Employee Salary Management
-- Dashboard Analytics
-
-## 👨‍💻 Developer
-
-**Yash Vishwasrao**
-
-Computer Science Student passionate about Java, Spring Boot, Backend Development, and Software Engineering.
-
+Yeshwant
 GitHub: https://github.com/yeshwant104
-
----
-
-⭐ If you found this project useful, feel free to star the repository.
